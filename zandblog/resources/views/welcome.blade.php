@@ -1,100 +1,64 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+@extends('layauts.main')
+@section('content')
+<div class="jumbotron card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+  <div class="text-white text-center py-5 px-4">
+    <div>
+      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Fast Food  Restaurant</strong></h2>
+      <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+      </p>
+      <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> Make Order Now</a>
+    </div>
+  </div>
+</div>
+<!-- container  -->
+<section id="our-branches">
+  <div class="container justify-content">
+    <div class="page-header" id="branche">
+      <h1 class="text-center text-dark text-uppercase my-4 display-4">our branches restaurant</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <figure class="figure">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
+          alt="Meet2Meat restaurant in Edenvale" style="width: 460px">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <h3 class="my-2">Meet2Meat Edenvale</h3>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="figure">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
+          alt="Shaka's Cuisine Boksburg restaurant" style="width: 460px">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <h3 class="my-2">Shaka's Cuisine Boksburg</h3>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="figure">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
+          alt="Shaka Cuisine Braamfortein" style="width: 460px">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <h3 class="my-2">Shaka's Braamfortein</h3>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- call to action -->
+<section id="cta">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8">
+          <!-- conten -->
+          <h4 class="my-3">Order now</h4>
+          <p class="lead">Best african fast restaurant foods</p>
         </div>
-    </body>
-</html>
+        <div class="col-md-4">
+          <!-- button -->
+          <button class="btn  btn-primary btn-lg btn-cta"type="button" name="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+</section>
+@endsection
