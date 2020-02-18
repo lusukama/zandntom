@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'FoodController@index');
+
+Route::get('/hello', function () {
     return view('welcome');
 });
