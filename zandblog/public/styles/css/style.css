@@ -1,0 +1,8 @@
+/* customer style */
+/* call to action */
+#cta{
+  padding: 60px 0;
+  background: lightgray;
+  color: #fff;
+}
+#cta button{ margin-top: 40px;}

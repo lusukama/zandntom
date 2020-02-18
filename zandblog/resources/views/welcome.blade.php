@@ -61,4 +61,36 @@
     </div>
   </div>
 </section>
+<!-- add gallery  -->
+<section style="padding:80px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-teal-light">
+          <p class="white-text">strong overlay</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+          <p class="white-text">strong overlay</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-teal-super-light">
+          <p class="white-text">strong overlay</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 @endsection

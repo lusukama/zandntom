@@ -11,7 +11,7 @@
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase">Footer Content</h5>
+        <h5 class="text-uppercase">Our Address</h5>
         <p>Here you can use rows and columns to organize your footer content.</p>
 
       </div>
@@ -23,20 +23,17 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
+        <h5 class="text-uppercase">Our Restaurant</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#!">Shaka's Braamfontein</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#!">Meet2Meat Edenvale</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
+            <a href="#!">Shaka's Boksburg</a>
           </li>
         </ul>
 
@@ -47,20 +44,17 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
+        <h5 class="text-uppercase">Quick Links</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#!">Special</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#!">Careers</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
+            <a href="#!">Policies</a>
           </li>
         </ul>
 
