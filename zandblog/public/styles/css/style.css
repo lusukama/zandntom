@@ -1,11 +1,59 @@
 /* customer style */
+/* brand name  */
+.navbar-brand .coat{ color: #FFFF04 !important;}
+/* home page  */
+.overlay{
+  background: #0000000d;
+  padding: 60px;
+}
+
+.overlay h2{ color: #919123;}
+/* btn-order */
+.btn-order{
+  background: #FFFF04!important;
+  color: #0E1B2D;
+  border: 0;
+  border-radius: none;
+  font-size: large !important;
+  padding: 20px 30px 20px 30px !important;
+}
+.btn-order:hover{ background:#0E1B2D !important; color: #fff;}
+
+.colorBlue{ color:#0E1B2D !important; border-bottom: 2px solid #FFFF04;}
+/* Navbar */
+.navbar{ background: #0f1d32;}
+
+.navbar.navbar-dark .navbar-nav
+.nav-item.active>.nav-link{
+  color: #FFFF04;
+  background: transparent;
+}
 /* call to action */
 #cta{
   padding: 60px 0;
-  background: lightgray;
+  background: #02485F;
   color: #fff;
 }
 #cta button{ margin-top: 40px;}
+.btn-cta{ background: #0E1B2D !important; color: #FFFF04;}
+.btn-cta:hover { background: #FFFF04 !important; color: #0E1B2D !important;}
+/* View menu */
+.view .menuShaka, .view .meet2meatMenu{
+  color: #fff;
+  border-bottom: 2px solid #FFFF04;
+}
 
+/* ul menuShaka */
+.view .menuShaka >li:hover,
+.view .meet2meatMenu >li:hover{
+  color: #FFFF04;
+}
+
+
+/* Braamfortein menu */
+.Shaka, .view p{ color: #FFFF04 !important; }
 /* create page */
 #create{padding: 20px 0 80px 0;}
+
+/* Page-footer */
+.page-footer{ background: #0f1d32; border-top: 1px solid #FFFF04;}

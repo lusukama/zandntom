@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Foods;
 
 class FoodController extends Controller
 {
@@ -21,5 +22,22 @@ class FoodController extends Controller
     // create function
     public function create(){
       return view('create');
+    }
+
+    //Add store method
+    public function store(Request $request){
+      $this-> validate($request,[
+        'foodName'=>'required',
+        'price'=>'required'
+      ]);
+
+      // add the model
+      $food = new Foods;
+      $food->food_name = $request-> foodName;
+      $food->food_price = $request-> price;
+      $food->save();
+
+      // redirect
+      return redirect(route('home'))->with('successMsg','Order Successfully Added');
     }
 }

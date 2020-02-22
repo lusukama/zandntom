@@ -1,45 +1,47 @@
 @extends('layauts.main')
 @section('content')
-<div class="jumbotron card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+<div class="jumbotron card card-image" style="background-image: url(public/images/slider2.jpg);">
   <div class="text-white text-center py-5 px-4">
-    <div>
-      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Fast Food  Restaurant</strong></h2>
-      <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-      </p>
-      <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> Make Order Now</a>
+    <div class="overlay">
+      <h2 class="card-title h2-responsive pt-3 mb-5 font-bold text-uppercase "><strong>Fast Food  Restaurant</strong></h2>
+      <a href="{{ url('/restaurant')}}" class="btn btn-outline btn-md btn-order"><i class="fas fa-clone left"></i> Make Order Now</a>
     </div>
   </div>
 </div>
+@if(session('successMsg'))
+  <div class="alert alert-success" role="alert">
+    {{ session('successMsg')}}
+  </div>
+@endif
 <!-- container  -->
 <section id="our-branches">
   <div class="container justify-content">
     <div class="page-header" id="branche">
-      <h1 class="text-center text-dark text-uppercase my-4 display-4">our branches restaurant</h1>
+      <h2 class="text-center text-dark text-uppercase my-4 display-4 h2-responsive"><span class="colorBlue">our</span> branches</h2>
     </div>
     <div class="row">
       <div class="col-md-4">
         <figure class="figure">
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
+          <img src="public/images/services/debt-collection.jpg" class="figure-img img-fluid z-depth-1"
           alt="Meet2Meat restaurant in Edenvale" style="width: 460px">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          <h3 class="my-2">Meet2Meat Edenvale</h3>
+          <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+          <h3 class="my-2 h3-responsive">Meet2Meat Edenvale</h3>
         </figure>
       </div>
       <div class="col-md-4">
         <figure class="figure">
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
+          <img src="public/images/services/debt-consolidation-2.jpg" class="figure-img img-fluid z-depth-1"
           alt="Shaka's Cuisine Boksburg restaurant" style="width: 460px">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          <h3 class="my-2">Shaka's Cuisine Boksburg</h3>
+          <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+          <h3 class="my-2 h3-responsive">Shaka's Cuisine Boksburg</h3>
         </figure>
       </div>
       <div class="col-md-4">
         <figure class="figure">
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
+          <img src="public/images/services/debt-restoration.jpg" class="figure-img img-fluid z-depth-1"
           alt="Shaka Cuisine Braamfortein" style="width: 460px">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          <h3 class="my-2">Shaka's Braamfortein</h3>
+          <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+          <h3 class="my-2 h3-responsive">Shaka's Braamfortein</h3>
         </figure>
       </div>
     </div>
@@ -51,12 +53,12 @@
     <div class="row">
         <div class="col-md-8">
           <!-- conten -->
-          <h4 class="my-3">Order now</h4>
+          <h4 class="my-3 h4-responsive text-capitalize" style="color: #FFFF04;">Order now</h4>
           <p class="lead">Best african fast restaurant foods</p>
         </div>
         <div class="col-md-4">
           <!-- button -->
-          <button class="btn  btn-primary btn-lg btn-cta"type="button" name="button">Order Now</button>
+          <a class="btn  btn-primary btn-lg btn-cta"type="button" name="button" href="{{ url('/restaurant')}}">Order Now</a>
         </div>
     </div>
   </div>
@@ -67,25 +69,43 @@
     <div class="row">
       <div class="col-md-4">
         <div class="view">
-          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
-          <div class="mask flex-center waves-effect waves-light rgba-teal-light">
-          <p class="white-text">strong overlay</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="view">
-          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+          <img src="public/images/foods/mogodu-african-food-500px.jpg" class="img-fluid" alt="placeholder">
           <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
-          <p class="white-text">strong overlay</p>
+          <p class="white-text h4-responsive">Shaka's Menu</p>
+          <ul class="menuShaka">
+            <li type="square" class="h5-responsive">Mogodu</li>
+            <li type="square" class="h5-responsive">Chicken</li>
+            <li type="square" class="h5-responsive">Breakfast</li>
+            <li type="square" class="h5-responsive">Meal</li>
+          </ul>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="view">
-          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
-          <div class="mask flex-center waves-effect waves-light rgba-teal-super-light">
-          <p class="white-text">strong overlay</p>
+          <img src="public/images/foods/ready-plate-to-eat-500px.jpg" class="img-fluid" alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+          <p class="white-text h4-responsive">Meet2Meat's Menu</p>
+          <ul class="meet2meatMenu">
+            <li type="square" class="h5-responsive">Beef</li>
+            <li type="square" class="h5-responsive">Chicken</li>
+            <li type="square" class="h5-responsive">Braai</li>
+            <li type="square" class="h5-responsive">Others</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="view">
+          <img src="public/images/foods/steak-500px.jpg" class="img-fluid" alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+          <p class="h4-responsive Shaka">Shaka Braamfortein</p>
+          <ul class="menuShaka Braamfortein">
+            <li type="square" class="h5-responsive">Burger</li>
+            <li type="square" class="h5-reserved">Beef & Pap</li>
+            <li type="square" class="h5-responsive">Breakfast</li>
+            <li type="square" class="h5-responsive">Catering</li>
+          </ul>
           </div>
         </div>
       </div>

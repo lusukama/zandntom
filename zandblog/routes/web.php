@@ -13,6 +13,7 @@
 
 Route::get('/', 'FoodController@index')->name('home');
 Route::get('/create', 'FoodController@create')->name('create');
+Route::post('/create', 'FoodController@store')->name('store');
 Route::get('/restaurant', 'FoodController@restaurant')->name('restaurant');
 Route::get('/contact', 'FoodController@contact')->name('contact');
 

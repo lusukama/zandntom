@@ -1,8 +1,8 @@
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+<nav class="navbar navbar-expand-lg navbar-dark">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#">food <span class="text-white text-uppercase my-4">coat</span></a>
+  <a class="navbar-brand h4-responsive" href="#">food<span class="text-white text-uppercase coat">coat</span></a>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"

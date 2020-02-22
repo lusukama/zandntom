@@ -8,7 +8,7 @@
   <meta name="keywords" content="Fast food restaurant african food">
   <meta name="author" content="Lusukama S Selemani Selianord">
   <meta name="discription" content="Food Coat known as the best fast food and african food restaurant">
-  <title>Zandntom Security Operations | Home </title>
+  <title>Food Coat | Home </title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
