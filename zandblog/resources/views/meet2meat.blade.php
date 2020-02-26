@@ -1,10 +1,9 @@
 @extends('layauts.main')
 @section('content')
-<div class="jumbotron card card-image" style="background-image: url(public/images/bg.jpg);">
+<div class="jumbotron card card-image" style="background-image: url(public/images/banner-meet2meat2.jpg);">
   <div class="text-white text-center py-5 px-4">
     <div class="overlay">
-      <h2 class="card-title h2-responsive pt-3 mb-5 font-bold text-uppercase "><strong>Fast Food  Restaurant</strong></h2>
-      <p class="lead">we are known for our african themed soul food that transports our customers to their childhood days. Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
+      <h2 class="card-title h2-responsive pt-3 mb-5 font-bold text-uppercase "><strong>Meet2Meat <small>so nice, so we meet again</small></strong></h2>
       <a href="{{ url('/restaurant')}}" class="btn btn-outline btn-md btn-order"><i class="fas fa-clone left"></i> Make Order Now</a>
     </div>
   </div>

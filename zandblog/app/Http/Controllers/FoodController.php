@@ -15,6 +15,19 @@ class FoodController extends Controller
     public function restaurant(){
       return view('restaurant');
     }
+    // Add meet2meat method here
+    public function meet2meat(){
+      return view('meet2meat');
+    }
+    // Add method shakaBoksburg
+    public function shakaBoksburg(){
+      return view('shakaBoksburg');
+    }
+
+    // Add method shakaBraamfontein
+    public function shakaBraamfontein(){
+      return view('shakaBraamfontein');
+    }
     // add contact page here function
     public function contact(){
       return view('contact');

@@ -15,7 +15,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
               optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
               Odit sed qui, dolorum!.</p>
-            <a class="btn btn-pink"><i class="fas fa-clone left"></i> View Restaurant</a>
+            <a class="btn btn-pink" href="{{ url('/shakaBoksburg')}}"><i class="fas fa-clone left"></i> View Restaurant</a>
           </div>
         </div>
 
@@ -34,7 +34,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
               optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
               Odit sed qui, dolorum!.</p>
-            <a class="btn btn-pink"><i class="fas fa-clone left"></i> View Restaurant</a>
+            <a class="btn btn-pink" href="{{ url('/meet2meat')}}"><i class="fas fa-clone left"></i> View Restaurant</a>
           </div>
         </div>
 
@@ -53,7 +53,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
               optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
               Odit sed qui, dolorum!.</p>
-            <a class="btn btn-pink"><i class="fas fa-clone left"></i> View Restaurant</a>
+            <a class="btn btn-pink" href="{{ url('/shakaBraamfontein')}}"><i class="fas fa-clone left"></i> View Restaurant</a>
           </div>
         </div>
 

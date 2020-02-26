@@ -7,7 +7,7 @@
   padding: 60px;
 }
 
-.overlay h2{ color: #919123;}
+.overlay h2{ color: #fff!important;}
 /* btn-order */
 .btn-order{
   background: #FFFF04!important;
@@ -54,6 +54,16 @@
 .Shaka, .view p{ color: #FFFF04 !important; }
 /* create page */
 #create{padding: 20px 0 80px 0;}
+
+
+/* single Restaurant shakaBoksburg */
+.overlay >.shakaBosk{ color: #FFFF04 !important;}
+
+
+/* Single Restaurant shakaBraamfontein */
+
+
+/* single Restaurant Meet2Meat */
 
 /* Page-footer */
 .page-footer{ background: #0f1d32; border-top: 1px solid #FFFF04;}

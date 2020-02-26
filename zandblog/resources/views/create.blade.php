@@ -4,7 +4,7 @@
 <div class="container">
   <h1 class="display-4 my-4 text-center text-dark">Create Order</h1>
   <!-- Default form register -->
-<form class="text-center border border-light p-5" action="{{ route('store')}}" method="POST">
+<form class="text-center border border-light p-5" action="{{ route('/store')}}" method="POST">
     <p class="h4 mb-4">Add Order Now</p>
     <div class="form-row mb-4">
         <div class="col">
