@@ -30,7 +30,7 @@
       </div>
       <div class="col-md-4">
         <figure class="figure">
-          <img src="public/images/services/Breakfast.jpg" class="figure-img img-fluid z-depth-1"
+          <img src="public/images/services/breakfast.jpg" class="figure-img img-fluid z-depth-1"
           alt="Shaka's Cuisine Boksburg restaurant" style="width: 460px">
           <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
           <h3 class="my-2 h3-responsive">Shaka's Cuisine Boksburg</h3>
@@ -123,21 +123,21 @@
         </div>
         <div class="row row-grid mt-5">
           <div class="col-lg-4">
-            <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+            <div class="icon icon-lg icon-shape bg-gradient-white  rounded-circle text-primary">
               <i class="fa fa-desktop text-primary"></i>
             </div>
             <h5 class="text-dark  titleColor h5-responsive">Quality</h5>
             <p class="text-dark mt-3">We offer various options in regards to providing quality food(s) for your priceless celebrations.</p>
           </div>
           <div class="col-lg-4">
-            <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+            <div class="icon icon-lg icon-shape bg-gradient-white  rounded-circle text-primary">
               <i class="fa fa-pencil text-primary"></i>
             </div>
             <h5 class="text-dark  titleColor">Deversification</h5>
             <p class="text-dark mt-3">We provide exceptional food for such priceless moments in ones life...</p>
           </div>
           <div class="col-lg-4">
-            <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+            <div class="icon icon-lg icon-shape bg-gradient-white  rounded-circle text-primary">
               <i class="fa fa-tablet text-primary"></i>
             </div>
             <h5 class="text-dark  titleColor h5-responsive">Our Commitment</h5>
@@ -193,11 +193,15 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <h4>Our Contact Details</h4>
-            <p>64 leuport street Boksburg
-            <br/> Telephone: +27796855739 <br />
-            Email: info@foodcoat.co.za <br />
-            Website: www.foodcoat.co.za
+            <div class="card shadow mt-5">
+                <div class="justify-content-center mt-5">
+                  <h4 class="text-center h4-responsive mb-3">Our Contact Details</h4>
+                  <p class="lead text-center mb-5"> 22 Jorissen street Braamfortein
+                  <br/> Telephone: +27796855739 <br />
+                  Email: info@foodcoat.co.za <br />
+                  Website: www.foodcoat.co.za
+                </div>
+            </div>
             </p>
           </div>
         </div>

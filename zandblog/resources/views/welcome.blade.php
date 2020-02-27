@@ -4,7 +4,7 @@
   <div class="text-white text-center py-5 px-4">
     <div class="overlay">
       <h2 class="card-title h2-responsive pt-3 mb-5 font-bold text-uppercase "><strong>Fast Food  Restaurant</strong></h2>
-      <p class="lead">we are known for our african themed soul food that transports our customers to their childhood days. Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
+      <p class="lead">Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
       <a href="{{ url('/restaurant')}}" class="btn btn-outline btn-md btn-order"><i class="fas fa-clone left"></i> Make Order Now</a>
     </div>
   </div>
@@ -17,33 +17,43 @@
 <!-- container  -->
 <section id="our-branches">
   <div class="container justify-content">
-    <div class="page-header" id="branche">
-      <h2 class="text-center text-dark text-uppercase my-4 display-4 h2-responsive"><span class="colorBlue">our</span> branches</h2>
+    <div class="page-header mt-3" id="branche">
+      <h2 class="text-center text-dark text-uppercase my-4 display-4 h2-responsive" style="font-weight: 500;"><span class="colorYellow">our</span> branches</h2>
     </div>
     <div class="row">
       <div class="col-md-4">
-        <figure class="figure">
-          <img src="public/images/services/beef-meat.jpg" class="figure-img img-fluid z-depth-1"
-          alt="Meet2Meat restaurant in Edenvale" style="width: 460px">
-          <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
-          <h3 class="my-2 h3-responsive">Meet2Meat Edenvale</h3>
-        </figure>
+        <div class="card shadow mb-5 mt-5">
+          <figure class="figure">
+            <img src="public/images/services/beef-meat.jpg" class="figure-img img-fluid z-depth-1"
+            alt="Meet2Meat restaurant in Edenvale" style="width: 460px">
+            <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+            <h3 class="my-2 h3-responsive text-center justify-content-center" style="font-weight: 500;">Meet2Meat Edenvale</h3>
+          </figure>
+        </div>
+
       </div>
       <div class="col-md-4">
-        <figure class="figure">
-          <img src="public/images/services/breakfast.jpg" class="figure-img img-fluid z-depth-1"
-          alt="Shaka's Cuisine Boksburg restaurant" style="width: 460px">
-          <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
-          <h3 class="my-2 h3-responsive">Shaka's Cuisine Boksburg</h3>
-        </figure>
+        <div class="card shadow mb-5 mt-5">
+          <figure class="figure">
+            <img src="public/images/services/breakfast.jpg" class="figure-img img-fluid z-depth-1"
+            alt="Shaka's Cuisine Boksburg restaurant" style="width: 460px">
+            <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+            <h3 class="my-2 h3-responsive text-center justify-content-center" style="font-weight
+            : 500;">Shaka's Cuisine Boksburg</h3>
+          </figure>
+        </div>
+
       </div>
       <div class="col-md-4">
-        <figure class="figure">
-          <img src="public/images/services/burgers.jpg" class="figure-img img-fluid z-depth-1"
-          alt="Shaka Cuisine Braamfortein" style="width: 460px">
-          <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
-          <h3 class="my-2 h3-responsive">Shaka's Braamfortein</h3>
-        </figure>
+        <div class="card shadow mb-5 mt-5">
+          <figure class="figure">
+            <img src="public/images/services/burgers.jpg" class="figure-img img-fluid z-depth-1"
+            alt="Shaka Cuisine Braamfortein" style="width: 460px">
+            <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+            <h3 class="my-2 h3-responsive text-center justify-content-center" style="font-weight:500;">Shaka's Braamfortein</h3>
+          </figure>
+        </div>
+
       </div>
     </div>
   </div>
@@ -54,8 +64,8 @@
     <div class="row">
         <div class="col-md-8">
           <!-- conten -->
-          <h4 class="my-3 h4-responsive text-capitalize" style="color: #FFFF04;">Order now</h4>
-          <p class="lead">Best african fast restaurant foods</p>
+          <h4 class="my-3 h4-responsive text-capitalize" style="color: #FFFF04;">Who we are </h4>
+          <p class="lead"><strong>food <span class="yellow" style="color: #FFFF04; border-radius: 3rem;">.</span> Coat</strong> we are known for our african themed soul food that transports our customers to their childhood days. Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
         </div>
         <div class="col-md-4">
           <!-- button -->

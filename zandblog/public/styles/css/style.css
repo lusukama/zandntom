@@ -19,7 +19,7 @@
 }
 .btn-order:hover{ background:#0E1B2D !important; color: #fff;}
 
-.colorBlue{ color:#0E1B2D !important; border-bottom: 2px solid #FFFF04;}
+.colorYellow{ color:#0E1B2D !important; border-bottom: 4px solid #FFFF04; font-weight: 700;}
 /* Navbar */
 .navbar{ background: #0f1d32;}
 
@@ -34,7 +34,7 @@
   background: #02485F;
   color: #fff;
 }
-#cta button{ margin-top: 40px;}
+.btn-cta{ margin-top: 80px;}
 .btn-cta{ background: #0E1B2D !important; color: #FFFF04;}
 .btn-cta:hover { background: #FFFF04 !important; color: #0E1B2D !important;}
 /* View menu */
