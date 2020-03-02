@@ -4,7 +4,7 @@
   <div class="text-white text-center py-5 px-4">
     <div class="overlay">
       <h2 class="card-title h2-responsive pt-3 mb-5 font-bold text-uppercase "><strong>Fast Food  Restaurant</strong></h2>
-      <p class="lead">Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
+      <p class="lead w-responsive mx-auto mb-5">Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
       <a href="{{ url('/restaurant')}}" class="btn btn-outline btn-md btn-order"><i class="fas fa-clone left"></i> Make Order Now</a>
     </div>
   </div>
@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col-md-8">
           <!-- conten -->
-          <h4 class="my-3 h4-responsive text-capitalize" style="color: #FFFF04;">Who we are </h4>
+          <h4 class="my-3 h4-responsive text-capitalize" style="color: #FFFF04;"><span class="bar">Who</span> we are </h4>
           <p class="lead"><strong>food <span class="yellow" style="color: #FFFF04; border-radius: 3rem;">.</span> Coat</strong> we are known for our african themed soul food that transports our customers to their childhood days. Our menu offers a variety of food for breakfast, lunch and dinner and catering for you specific events.</p>
         </div>
         <div class="col-md-4">
